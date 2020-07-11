@@ -1,0 +1,28 @@
+PODS:
+  - AutoChangeable (1.0.0)
+  - Sourcery (0.18.0)
+
+DEPENDENCIES:
+  - AutoChangeable (from `https://github.com/almazrafi/AutoChangeable.git`)
+  - Sourcery
+
+SPEC REPOS:
+  trunk:
+    - Sourcery
+
+EXTERNAL SOURCES:
+  AutoChangeable:
+    :git: https://github.com/almazrafi/AutoChangeable.git
+
+CHECKOUT OPTIONS:
+  AutoChangeable:
+    :commit: 131a83052da656d171680b76f8a6faed5c594be3
+    :git: https://github.com/almazrafi/AutoChangeable.git
+
+SPEC CHECKSUMS:
+  AutoChangeable: 9e7d6e13c5973435cffb20231ebe91346cd48562
+  Sourcery: e0e8658a1ce6d9f475156ad3ffce4c68f1261b3e
+
+PODFILE CHECKSUM: c2f3c87faa2d3844fb5e268a9bea919a0554a10b
+
+COCOAPODS: 1.9.3

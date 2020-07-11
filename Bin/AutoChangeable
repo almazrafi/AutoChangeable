@@ -1,0 +1,60 @@
+#!/bin/sh
+
+template_path="$(dirname "$0")/AutoChangeable.stencil"
+
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        -s|--sources) sources_path="$2"; shift ;;
+        -o|--output) output_path="$2"; shift ;;
+        *) echo "Unknown parameter passed: $1"; exit 1 ;;
+    esac
+    shift
+done
+
+if [ ! $sources_path ]; then
+  echo "No sources provided"
+  exit 1
+fi
+
+if [ ! $output_path ]; then
+  echo "No output provided"
+  exit 1
+fi
+
+unlock_output_file() {
+  if [[ -f $output_path ]]; then
+    chmod a=rw ${output_path}
+  fi
+}
+
+lock_output_file() {
+  if [[ -f $output_path ]]; then
+    chmod a=r ${output_path}
+  fi
+}
+
+resolve_sourcery_path() {
+  pods_root_path=${PODS_ROOT}
+
+  if [ ! $sources_path ]; then
+    pods_root_path="Pods"
+  fi
+
+  pods_sourcery_path="${pods_root_path}/Sourcery/bin/sourcery"
+
+  if [[ -f $pods_sourcery_path ]]; then
+    echo $pods_sourcery_path
+  else
+    echo "sourcery"
+  fi
+}
+
+trap lock_output_file EXIT
+unlock_output_file
+
+sourcery_path=$(resolve_sourcery_path)
+
+$sourcery_path \
+--sources ${sources_path} \
+--output ${output_path} \
+--templates ${template_path}

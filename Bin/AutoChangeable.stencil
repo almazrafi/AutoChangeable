@@ -1,0 +1,27 @@
+// swiftlint:disable all
+
+import Foundation
+
+#if canImport(AutoChangeable)
+import AutoChangeable
+#endif
+
+{% for type in types.structs where type.based.AutoChangeable %}
+{% if type.accessLevel != "private" %}
+extension {{ type.name }} {
+
+    {{ type.accessLevel }} init(copy: ChangeableWrapper<Self>) {
+        self.init(
+        {% for variable in type.storedVariables %}
+            {% if forloop.last %}
+            {{ variable.name }}: copy.{{ variable.name }}
+            {% else %}
+            {{ variable.name }}: copy.{{ variable.name }},
+            {% endif %}
+        {% endfor %}
+        )
+    }
+}
+
+{% endif %}
+{% endfor %}

@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+
+target 'AutoChangeableDemo' do
+  use_frameworks!
+
+  pod 'AutoChangeable', :git => 'https://github.com/almazrafi/AutoChangeable.git'
+  pod 'Sourcery'
+end
