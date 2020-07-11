@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+
+target 'ChangeableCopyDemo' do
+  use_frameworks!
+
+  pod 'ChangeableCopy', :git => 'https://github.com/almazrafi/ChangeableCopy.git'
+  pod 'Sourcery'
+end

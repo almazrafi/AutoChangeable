@@ -1,0 +1,28 @@
+import Foundation
+import ChangeableCopy
+
+struct Company: Hashable, Codable {
+
+    // MARK: - Instance Properties
+
+    let name: String
+    let country: String?
+}
+
+extension Company: Changeable {
+
+    // MARK: - Initializers
+
+    init(from copy: ChangeableCopy<Company>) {
+        self.init(name: copy.name, country: copy.country)
+    }
+}
+
+extension Company {
+
+    // MARK: - Type Properties
+
+    static let noname = Company(name: "Noname", country: nil)
+    static let apple = Company(name: "Apple", country: "USA")
+    static let next = Company(name: "NeXT", country: "USA")
+}
