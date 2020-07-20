@@ -8,7 +8,7 @@ class ChangeableTests: XCTestCase {
 
     func testThatInstanceCanBeCopiedWithoutChanges() {
         let expectedCompany = Company.apple
-        let company = Company.apple
+        let company = expectedCompany
 
         let newCompany = company.changing { _ in }
 

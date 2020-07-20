@@ -33,6 +33,34 @@
 		C08F5EC424C3BD2A00E21EC2 /* AutoChangeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F5EC224C3BD2A00E21EC2 /* AutoChangeable.swift */; };
 		C08F5EC524C3BD2A00E21EC2 /* AutoChangeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F5EC224C3BD2A00E21EC2 /* AutoChangeable.swift */; };
 		C08F5EC624C3BD2A00E21EC2 /* AutoChangeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F5EC224C3BD2A00E21EC2 /* AutoChangeable.swift */; };
+		C08F66BF24C639F400E21EC2 /* CGSize+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */; };
+		C08F66C024C639F400E21EC2 /* CGSize+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */; };
+		C08F66C124C639F400E21EC2 /* CGSize+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */; };
+		C08F66C224C639F400E21EC2 /* CGSize+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */; };
+		C08F66C424C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C324C63A5600E21EC2 /* CGPoint+Changeable.swift */; };
+		C08F66C524C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C324C63A5600E21EC2 /* CGPoint+Changeable.swift */; };
+		C08F66C624C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C324C63A5600E21EC2 /* CGPoint+Changeable.swift */; };
+		C08F66C724C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C324C63A5600E21EC2 /* CGPoint+Changeable.swift */; };
+		C08F66C924C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C824C63AB200E21EC2 /* CGRect+Changeable.swift */; };
+		C08F66CA24C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C824C63AB200E21EC2 /* CGRect+Changeable.swift */; };
+		C08F66CB24C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C824C63AB200E21EC2 /* CGRect+Changeable.swift */; };
+		C08F66CC24C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66C824C63AB200E21EC2 /* CGRect+Changeable.swift */; };
+		C08F66CE24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66CD24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift */; };
+		C08F66CF24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66CD24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift */; };
+		C08F66D024C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66CD24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift */; };
+		C08F66D124C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66CD24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift */; };
+		C08F66D424C63D0B00E21EC2 /* CGSizeChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66D324C63D0B00E21EC2 /* CGSizeChangingTests.swift */; };
+		C08F66D524C63D0B00E21EC2 /* CGSizeChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66D324C63D0B00E21EC2 /* CGSizeChangingTests.swift */; };
+		C08F66D624C63D0B00E21EC2 /* CGSizeChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66D324C63D0B00E21EC2 /* CGSizeChangingTests.swift */; };
+		C08F66D824C640A800E21EC2 /* CGPointChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66D724C640A800E21EC2 /* CGPointChangingTests.swift */; };
+		C08F66D924C640A800E21EC2 /* CGPointChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66D724C640A800E21EC2 /* CGPointChangingTests.swift */; };
+		C08F66DA24C640A800E21EC2 /* CGPointChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66D724C640A800E21EC2 /* CGPointChangingTests.swift */; };
+		C08F66DC24C6412100E21EC2 /* CGRectChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DB24C6412100E21EC2 /* CGRectChangingTests.swift */; };
+		C08F66DD24C6412100E21EC2 /* CGRectChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DB24C6412100E21EC2 /* CGRectChangingTests.swift */; };
+		C08F66DE24C6412100E21EC2 /* CGRectChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DB24C6412100E21EC2 /* CGRectChangingTests.swift */; };
+		C08F66E024C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */; };
+		C08F66E124C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */; };
+		C08F66E224C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */; };
 		C0A01A3223CB90F200AC2C3A /* ChangeableCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A2923CB90F200AC2C3A /* ChangeableCopy.framework */; };
 		C0A01A4123CB912C00AC2C3A /* ChangeableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* ChangeableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0A01A5023CB92EB00AC2C3A /* ChangeableCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A4723CB92EB00AC2C3A /* ChangeableCopy.framework */; };
@@ -81,6 +109,14 @@
 		C08F5F1424C471F900E21EC2 /* Demo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Demo; sourceTree = "<group>"; };
 		C08F61A024C4772400E21EC2 /* AutoChangeable.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = AutoChangeable.stencil; sourceTree = "<group>"; };
 		C08F61A124C4772400E21EC2 /* AutoChangeable */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = AutoChangeable; sourceTree = "<group>"; };
+		C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Changeable.swift"; sourceTree = "<group>"; };
+		C08F66C324C63A5600E21EC2 /* CGPoint+Changeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Changeable.swift"; sourceTree = "<group>"; };
+		C08F66C824C63AB200E21EC2 /* CGRect+Changeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Changeable.swift"; sourceTree = "<group>"; };
+		C08F66CD24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Changeable.swift"; sourceTree = "<group>"; };
+		C08F66D324C63D0B00E21EC2 /* CGSizeChangingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeChangingTests.swift; sourceTree = "<group>"; };
+		C08F66D724C640A800E21EC2 /* CGPointChangingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointChangingTests.swift; sourceTree = "<group>"; };
+		C08F66DB24C6412100E21EC2 /* CGRectChangingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectChangingTests.swift; sourceTree = "<group>"; };
+		C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsChangingTests.swift; sourceTree = "<group>"; };
 		C0A01A1423CB8FF300AC2C3A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C0A01A1523CB8FFC00AC2C3A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C0A01A1623CB900800AC2C3A /* ChangeableCopy.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeableCopy.podspec; sourceTree = "<group>"; };
@@ -198,6 +234,7 @@
 		C057F01023CB8EEB00C2D895 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C08F66BD24C639D800E21EC2 /* Extensions */,
 				C0A01A1423CB8FF300AC2C3A /* .swiftlint.yml */,
 				C08F5EC224C3BD2A00E21EC2 /* AutoChangeable.swift */,
 				C06DF3E924BA4EA00034B365 /* Changeable.swift */,
@@ -211,6 +248,7 @@
 		C057F01B23CB8EEB00C2D895 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C08F66D224C63C1500E21EC2 /* Extensions */,
 				C08F5BDC24C3B5DF00E21EC2 /* Models */,
 				C0A01A1523CB8FFC00AC2C3A /* .swiftlint.yml */,
 				C08F5BD424C39C2700E21EC2 /* ChangeableCopyTests.swift */,
@@ -236,6 +274,28 @@
 				C08F61A124C4772400E21EC2 /* AutoChangeable */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		C08F66BD24C639D800E21EC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C08F66C324C63A5600E21EC2 /* CGPoint+Changeable.swift */,
+				C08F66C824C63AB200E21EC2 /* CGRect+Changeable.swift */,
+				C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */,
+				C08F66CD24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C08F66D224C63C1500E21EC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C08F66D724C640A800E21EC2 /* CGPointChangingTests.swift */,
+				C08F66DB24C6412100E21EC2 /* CGRectChangingTests.swift */,
+				C08F66D324C63D0B00E21EC2 /* CGSizeChangingTests.swift */,
+				C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -601,7 +661,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F66C224C639F400E21EC2 /* CGSize+Changeable.swift in Sources */,
+				C08F66D124C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */,
+				C08F66CC24C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */,
 				C06DF3F224BA4F170034B365 /* ChangeableCopy.swift in Sources */,
+				C08F66C724C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */,
 				C08F5EC624C3BD2A00E21EC2 /* AutoChangeable.swift in Sources */,
 				C06DF3ED24BA4EA00034B365 /* Changeable.swift in Sources */,
 			);
@@ -611,7 +675,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F66BF24C639F400E21EC2 /* CGSize+Changeable.swift in Sources */,
+				C08F66CE24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */,
+				C08F66C924C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */,
 				C06DF3EF24BA4F170034B365 /* ChangeableCopy.swift in Sources */,
+				C08F66C424C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */,
 				C08F5EC324C3BD2A00E21EC2 /* AutoChangeable.swift in Sources */,
 				C06DF3EA24BA4EA00034B365 /* Changeable.swift in Sources */,
 			);
@@ -621,8 +689,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F66D424C63D0B00E21EC2 /* CGSizeChangingTests.swift in Sources */,
 				C08F5BD524C39C2700E21EC2 /* ChangeableCopyTests.swift in Sources */,
 				C08F5BD924C3B5D800E21EC2 /* ChangeableTests.swift in Sources */,
+				C08F66DC24C6412100E21EC2 /* CGRectChangingTests.swift in Sources */,
+				C08F66D824C640A800E21EC2 /* CGPointChangingTests.swift in Sources */,
+				C08F66E024C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */,
 				C08F5BCD24C39B2700E21EC2 /* User.swift in Sources */,
 				C08F5BD124C39B5500E21EC2 /* Company.swift in Sources */,
 			);
@@ -632,7 +704,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F66C024C639F400E21EC2 /* CGSize+Changeable.swift in Sources */,
+				C08F66CF24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */,
+				C08F66CA24C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */,
 				C06DF3F024BA4F170034B365 /* ChangeableCopy.swift in Sources */,
+				C08F66C524C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */,
 				C08F5EC424C3BD2A00E21EC2 /* AutoChangeable.swift in Sources */,
 				C06DF3EB24BA4EA00034B365 /* Changeable.swift in Sources */,
 			);
@@ -642,8 +718,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F66D524C63D0B00E21EC2 /* CGSizeChangingTests.swift in Sources */,
 				C08F5BD624C39C2700E21EC2 /* ChangeableCopyTests.swift in Sources */,
 				C08F5BDA24C3B5D800E21EC2 /* ChangeableTests.swift in Sources */,
+				C08F66DD24C6412100E21EC2 /* CGRectChangingTests.swift in Sources */,
+				C08F66D924C640A800E21EC2 /* CGPointChangingTests.swift in Sources */,
+				C08F66E124C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */,
 				C08F5BCE24C39B2700E21EC2 /* User.swift in Sources */,
 				C08F5BD224C39B5500E21EC2 /* Company.swift in Sources */,
 			);
@@ -653,7 +733,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F66C124C639F400E21EC2 /* CGSize+Changeable.swift in Sources */,
+				C08F66D024C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift in Sources */,
+				C08F66CB24C63AB200E21EC2 /* CGRect+Changeable.swift in Sources */,
 				C06DF3F124BA4F170034B365 /* ChangeableCopy.swift in Sources */,
+				C08F66C624C63A5600E21EC2 /* CGPoint+Changeable.swift in Sources */,
 				C08F5EC524C3BD2A00E21EC2 /* AutoChangeable.swift in Sources */,
 				C06DF3EC24BA4EA00034B365 /* Changeable.swift in Sources */,
 			);
@@ -663,8 +747,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08F66D624C63D0B00E21EC2 /* CGSizeChangingTests.swift in Sources */,
 				C08F5BD724C39C2700E21EC2 /* ChangeableCopyTests.swift in Sources */,
 				C08F5BDB24C3B5D800E21EC2 /* ChangeableTests.swift in Sources */,
+				C08F66DE24C6412100E21EC2 /* CGRectChangingTests.swift in Sources */,
+				C08F66DA24C640A800E21EC2 /* CGPointChangingTests.swift in Sources */,
+				C08F66E224C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */,
 				C08F5BCF24C39B2700E21EC2 /* User.swift in Sources */,
 				C08F5BD324C39B5500E21EC2 /* Company.swift in Sources */,
 			);
