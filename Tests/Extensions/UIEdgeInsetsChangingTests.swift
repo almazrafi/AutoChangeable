@@ -1,4 +1,4 @@
-#if canImport(CoreGraphics)
+#if canImport(UIKit)
 import UIKit
 import XCTest
 
