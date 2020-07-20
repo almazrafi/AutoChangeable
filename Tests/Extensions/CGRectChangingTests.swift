@@ -61,4 +61,5 @@ class CGRectChangingTests: XCTestCase {
         XCTAssertEqual(newRect, expectedRect)
     }
 }
+
 #endif

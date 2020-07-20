@@ -12,4 +12,5 @@ extension CGPoint: Changeable {
         )
     }
 }
+
 #endif

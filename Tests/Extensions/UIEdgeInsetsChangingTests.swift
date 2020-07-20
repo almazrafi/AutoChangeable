@@ -48,4 +48,5 @@ class UIEdgeInsetsChangingTests: XCTestCase {
         XCTAssertEqual(newInsets, expectedInsets)
     }
 }
+
 #endif

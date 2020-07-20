@@ -279,9 +279,9 @@
 		C08F66BD24C639D800E21EC2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */,
 				C08F66C324C63A5600E21EC2 /* CGPoint+Changeable.swift */,
 				C08F66C824C63AB200E21EC2 /* CGRect+Changeable.swift */,
+				C08F66BE24C639F400E21EC2 /* CGSize+Changeable.swift */,
 				C08F66CD24C63B0E00E21EC2 /* UIEdgeInsets+Changeable.swift */,
 			);
 			path = Extensions;

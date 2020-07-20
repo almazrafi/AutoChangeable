@@ -29,4 +29,5 @@ class CGSizeChangingTests: XCTestCase {
         XCTAssertEqual(newSize, expectedSize)
     }
 }
+
 #endif

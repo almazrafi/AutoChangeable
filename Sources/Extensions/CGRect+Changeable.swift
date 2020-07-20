@@ -12,4 +12,5 @@ extension CGRect: Changeable {
         )
     }
 }
+
 #endif

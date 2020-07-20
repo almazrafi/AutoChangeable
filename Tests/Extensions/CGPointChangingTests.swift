@@ -29,4 +29,5 @@ class CGPointChangingTests: XCTestCase {
         XCTAssertEqual(newPoint, expectedPoint)
     }
 }
+
 #endif

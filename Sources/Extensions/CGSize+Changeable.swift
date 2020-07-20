@@ -12,4 +12,5 @@ extension CGSize: Changeable {
         )
     }
 }
+
 #endif
