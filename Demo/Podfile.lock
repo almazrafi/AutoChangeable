@@ -16,11 +16,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ChangeableCopy:
-    :commit: 5d00c5bbbd04850f3d12b897382ae7eacfd747e9
+    :commit: 88f02dda85591cd7c3cd094f6a478dff286c90ff
     :git: https://github.com/almazrafi/ChangeableCopy.git
 
 SPEC CHECKSUMS:
-  ChangeableCopy: c3eb372264fb0686cf39613a9bb3d7c62d79c13a
+  ChangeableCopy: 7a37e9b8fe99e89ce5c595f72089785153431f57
   Sourcery: e0e8658a1ce6d9f475156ad3ffce4c68f1261b3e
 
 PODFILE CHECKSUM: a16663e725a3e731510d0d3a66119f5cae4c50e5
