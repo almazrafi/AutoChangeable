@@ -59,6 +59,24 @@ extension User: Changeable {
 }
 ```
 
+### Code generation
+To generate code for the `AutoChangeable` protocol, the first thing you need to do
+is to install the [Sourcery](https://github.com/krzysztofzablocki/Sourcery) command line tool.
+
+You can use a ready-made [Stencil](https://github.com/stencilproject/Stencil)-template for Sourcery, 
+which can be downloaded from the latest release files 
+on the [repository releases page](https://github.com/almazrafi/ChangeableCopy/releases).
+
+If ChangeableCopy is installed using CocoaPods, it already contains this template
+and a helper script for generating code.
+You can either run it manually or in a custom build phase using the following command:
+
+``` sh
+Pods/ChangeableCopy/Misc/AutoChangeable \
+--sources Path/to/yours/sources \
+--output Path/to/generated/file
+```
+
 ## Installation
 ### CocoaPods
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
@@ -122,24 +140,6 @@ let package = Package(
         .target(name: "MyPackage", dependencies: ["ChangeableCopy"])
     ]
 )
-```
-
-## Code generation
-To generate code for the `AutoChangeable` protocol, the first thing you need to do
-is to install the [Sourcery](https://github.com/krzysztofzablocki/Sourcery) command line tool.
-
-You can use a ready-made [Stencil](https://github.com/stencilproject/Stencil)-template for Sourcery, 
-which can be downloaded from the latest release files 
-on the [repository releases page](https://github.com/almazrafi/ChangeableCopy/releases).
-
-If ChangeableCopy is installed using CocoaPods, it already contains this template
-and a helper script for generating code.
-You can either run it manually or in a custom build phase using the following command:
-
-``` sh
-Pods/ChangeableCopy/Misc/AutoChangeable \
---sources Path/to/yours/sources \
---output Path/to/generated/file
 ```
 
 ## Communication
