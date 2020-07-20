@@ -27,10 +27,10 @@ jobs:
       MACOS_DESTINATION: platform=macOS
       MACOS_BUILD_LOG_PATH: xcodebuild-macos.json
       TVOS_SCHEME: ChangeableCopy tvOS
-      TVOS_DESTINATION: OS=13.5,name=Apple TV 4K
+      TVOS_DESTINATION: OS=13.4,name=Apple TV 4K
       TVOS_BUILD_LOG_PATH: xcodebuild-tvos.json
       WATCHOS_SCHEME: ChangeableCopy watchOS
-      WATCHOS_DESTINATION: OS=6.1.1,name=Apple Watch Series 5 - 44mm
+      WATCHOS_DESTINATION: OS=6.2.1,name=Apple Watch Series 5 - 44mm
       WATCHOS_BUILD_LOG_PATH: xcodebuild-watchos.json
       SKIP_SWIFTLINT: TRUE
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

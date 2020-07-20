@@ -7,7 +7,7 @@
 [![Platforms](https://img.shields.io/cocoapods/p/ChangeableCopy.svg?style=flat)](https://developer.apple.com/discover/)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blue.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
-[![License](https://img.shields.io/github/license/almazrafi/ChangeableCopy.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/almazrafi/ChangeableCopy)](https://opensource.org/licenses/MIT)
 
 ChangeableCopy is a simple library that provides a convenient way to copy instances of Swift types with changed properties:
 
