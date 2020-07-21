@@ -1,8 +1,8 @@
 platform :ios, '10.0'
 
-target 'ChangeableCopyDemo' do
+target 'AutoChangeableDemo' do
   use_frameworks!
 
-  pod 'ChangeableCopy', :git => 'https://github.com/almazrafi/ChangeableCopy.git'
+  pod 'AutoChangeable', :git => 'https://github.com/almazrafi/AutoChangeable.git'
   pod 'Sourcery'
 end

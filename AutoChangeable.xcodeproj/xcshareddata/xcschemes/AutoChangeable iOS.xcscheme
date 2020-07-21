@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C057F00D23CB8EEB00C2D895"
-               BuildableName = "ChangeableCopy.framework"
-               BlueprintName = "ChangeableCopy iOS"
-               ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+               BuildableName = "AutoChangeable.framework"
+               BlueprintName = "AutoChangeable iOS"
+               ReferencedContainer = "container:AutoChangeable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C057F00D23CB8EEB00C2D895"
-            BuildableName = "ChangeableCopy.framework"
-            BlueprintName = "ChangeableCopy iOS"
-            ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+            BuildableName = "AutoChangeable.framework"
+            BlueprintName = "AutoChangeable iOS"
+            ReferencedContainer = "container:AutoChangeable.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -44,9 +44,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C057F01623CB8EEB00C2D895"
-               BuildableName = "ChangeableCopy Tests iOS.xctest"
-               BlueprintName = "ChangeableCopy Tests iOS"
-               ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+               BuildableName = "AutoChangeable Tests iOS.xctest"
+               BlueprintName = "AutoChangeable Tests iOS"
+               ReferencedContainer = "container:AutoChangeable.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C057F00D23CB8EEB00C2D895"
-            BuildableName = "ChangeableCopy.framework"
-            BlueprintName = "ChangeableCopy iOS"
-            ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+            BuildableName = "AutoChangeable.framework"
+            BlueprintName = "AutoChangeable iOS"
+            ReferencedContainer = "container:AutoChangeable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

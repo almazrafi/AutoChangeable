@@ -1,5 +1,5 @@
 import Foundation
-import ChangeableCopy
+import AutoChangeable
 
 struct Company: Hashable, Codable {
 

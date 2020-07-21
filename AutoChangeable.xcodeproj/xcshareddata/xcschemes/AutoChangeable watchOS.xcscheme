@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0A01A2823CB90F200AC2C3A"
-               BuildableName = "ChangeableCopy.framework"
-               BlueprintName = "ChangeableCopy macOS"
-               ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+               BlueprintIdentifier = "C006F1A12406B13E00C3F783"
+               BuildableName = "AutoChangeable.framework"
+               BlueprintName = "AutoChangeable watchOS"
+               ReferencedContainer = "container:AutoChangeable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,29 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "YES">
-      <CodeCoverageTargets>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0A01A2823CB90F200AC2C3A"
-            BuildableName = "ChangeableCopy.framework"
-            BlueprintName = "ChangeableCopy macOS"
-            ReferencedContainer = "container:ChangeableCopy.xcodeproj">
-         </BuildableReference>
-      </CodeCoverageTargets>
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0A01A3023CB90F200AC2C3A"
-               BuildableName = "ChangeableCopy Tests macOS.xctest"
-               BlueprintName = "ChangeableCopy Tests macOS"
-               ReferencedContainer = "container:ChangeableCopy.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -71,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0A01A2823CB90F200AC2C3A"
-            BuildableName = "ChangeableCopy.framework"
-            BlueprintName = "ChangeableCopy macOS"
-            ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+            BlueprintIdentifier = "C006F1A12406B13E00C3F783"
+            BuildableName = "AutoChangeable.framework"
+            BlueprintName = "AutoChangeable watchOS"
+            ReferencedContainer = "container:AutoChangeable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

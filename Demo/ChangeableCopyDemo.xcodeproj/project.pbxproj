@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC4FC03A37847EE52DD2DE88 /* Pods_ChangeableCopyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF29720EAEE4373F294903 /* Pods_ChangeableCopyDemo.framework */; };
+		AC4FC03A37847EE52DD2DE88 /* Pods_AutoChangeableDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF29720EAEE4373F294903 /* Pods_AutoChangeableDemo.framework */; };
 		C08F5EFD24C4668B00E21EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F5EFC24C4668B00E21EC2 /* AppDelegate.swift */; };
 		C08F5F0124C4668B00E21EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F5F0024C4668B00E21EC2 /* ViewController.swift */; };
 		C08F5F0424C4668B00E21EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08F5F0224C4668B00E21EC2 /* Main.storyboard */; };
@@ -19,9 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06BD6460656501F9CF977620 /* Pods-ChangeableCopyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeableCopyDemo.release.xcconfig"; path = "Target Support Files/Pods-ChangeableCopyDemo/Pods-ChangeableCopyDemo.release.xcconfig"; sourceTree = "<group>"; };
-		ACCF29720EAEE4373F294903 /* Pods_ChangeableCopyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChangeableCopyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C08F5EF924C4668B00E21EC2 /* ChangeableCopyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeableCopyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BD6460656501F9CF977620 /* Pods-AutoChangeableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoChangeableDemo.release.xcconfig"; path = "Target Support Files/Pods-AutoChangeableDemo/Pods-AutoChangeableDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ACCF29720EAEE4373F294903 /* Pods_AutoChangeableDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoChangeableDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08F5EF924C4668B00E21EC2 /* AutoChangeableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoChangeableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08F5EFC24C4668B00E21EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C08F5F0024C4668B00E21EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C08F5F0324C4668B00E21EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,7 +31,7 @@
 		C08F5F1624C4732C00E21EC2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C08F5F1824C4734E00E21EC2 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		C08F61B024C484E800E21EC2 /* AutoChangeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoChangeable.swift; sourceTree = "<group>"; };
-		E8F8C844A8472DEC37109F94 /* Pods-ChangeableCopyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeableCopyDemo.debug.xcconfig"; path = "Target Support Files/Pods-ChangeableCopyDemo/Pods-ChangeableCopyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F8C844A8472DEC37109F94 /* Pods-AutoChangeableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoChangeableDemo.debug.xcconfig"; path = "Target Support Files/Pods-AutoChangeableDemo/Pods-AutoChangeableDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC4FC03A37847EE52DD2DE88 /* Pods_ChangeableCopyDemo.framework in Frameworks */,
+				AC4FC03A37847EE52DD2DE88 /* Pods_AutoChangeableDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,8 +49,8 @@
 		50270B7568B9B6A261C85E5F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8F8C844A8472DEC37109F94 /* Pods-ChangeableCopyDemo.debug.xcconfig */,
-				06BD6460656501F9CF977620 /* Pods-ChangeableCopyDemo.release.xcconfig */,
+				E8F8C844A8472DEC37109F94 /* Pods-AutoChangeableDemo.debug.xcconfig */,
+				06BD6460656501F9CF977620 /* Pods-AutoChangeableDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -68,7 +68,7 @@
 		C08F5EFA24C4668B00E21EC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C08F5EF924C4668B00E21EC2 /* ChangeableCopyDemo.app */,
+				C08F5EF924C4668B00E21EC2 /* AutoChangeableDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 		DCD5B052E2BA13FDDE8D24B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACCF29720EAEE4373F294903 /* Pods_ChangeableCopyDemo.framework */,
+				ACCF29720EAEE4373F294903 /* Pods_AutoChangeableDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C08F5EF824C4668B00E21EC2 /* ChangeableCopyDemo */ = {
+		C08F5EF824C4668B00E21EC2 /* AutoChangeableDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C08F5F0D24C4668D00E21EC2 /* Build configuration list for PBXNativeTarget "ChangeableCopyDemo" */;
+			buildConfigurationList = C08F5F0D24C4668D00E21EC2 /* Build configuration list for PBXNativeTarget "AutoChangeableDemo" */;
 			buildPhases = (
 				1CB0C8D52BD0A7ABA31BA3CB /* [CP] Check Pods Manifest.lock */,
 				C08F643624C4999F00E21EC2 /* AutoChangeable */,
@@ -147,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = ChangeableCopyDemo;
-			productName = "ChangeableCopy Demo";
-			productReference = C08F5EF924C4668B00E21EC2 /* ChangeableCopyDemo.app */;
+			name = AutoChangeableDemo;
+			productName = "AutoChangeableDemo";
+			productReference = C08F5EF924C4668B00E21EC2 /* AutoChangeableDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C08F5EF424C4668B00E21EC2 /* Build configuration list for PBXProject "ChangeableCopyDemo" */;
+			buildConfigurationList = C08F5EF424C4668B00E21EC2 /* Build configuration list for PBXProject "AutoChangeableDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C08F5EF824C4668B00E21EC2 /* ChangeableCopyDemo */,
+				C08F5EF824C4668B00E21EC2 /* AutoChangeableDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -214,7 +214,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChangeableCopyDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AutoChangeableDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -227,15 +227,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChangeableCopyDemo/Pods-ChangeableCopyDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AutoChangeableDemo/Pods-AutoChangeableDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChangeableCopyDemo/Pods-ChangeableCopyDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AutoChangeableDemo/Pods-AutoChangeableDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChangeableCopyDemo/Pods-ChangeableCopyDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoChangeableDemo/Pods-AutoChangeableDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C08F643624C4999F00E21EC2 /* AutoChangeable */ = {
@@ -254,7 +254,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/ChangeableCopy/Misc/AutoChangeable\" \\\n--sources \"${SRCROOT}/Sources\" \\\n--output \"${SRCROOT}/Sources/Generated/AutoChangeable.swift\"\n";
+			shellScript = "\"${PODS_ROOT}/AutoChangeable/Bin/AutoChangeable\" \\\n--sources \"${SRCROOT}/Sources\" \\\n--output \"${SRCROOT}/Sources/Generated/AutoChangeable.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -409,7 +409,7 @@
 		};
 		C08F5F0E24C4668D00E21EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8F8C844A8472DEC37109F94 /* Pods-ChangeableCopyDemo.debug.xcconfig */;
+			baseConfigurationReference = E8F8C844A8472DEC37109F94 /* Pods-AutoChangeableDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -419,8 +419,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy-Demo";
-				PRODUCT_NAME = ChangeableCopyDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable-Demo";
+				PRODUCT_NAME = AutoChangeableDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -428,7 +428,7 @@
 		};
 		C08F5F0F24C4668D00E21EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06BD6460656501F9CF977620 /* Pods-ChangeableCopyDemo.release.xcconfig */;
+			baseConfigurationReference = 06BD6460656501F9CF977620 /* Pods-AutoChangeableDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,8 +438,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy-Demo";
-				PRODUCT_NAME = ChangeableCopyDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable-Demo";
+				PRODUCT_NAME = AutoChangeableDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -448,7 +448,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C08F5EF424C4668B00E21EC2 /* Build configuration list for PBXProject "ChangeableCopyDemo" */ = {
+		C08F5EF424C4668B00E21EC2 /* Build configuration list for PBXProject "AutoChangeableDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C08F5F0B24C4668D00E21EC2 /* Debug */,
@@ -457,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C08F5F0D24C4668D00E21EC2 /* Build configuration list for PBXNativeTarget "ChangeableCopyDemo" */ = {
+		C08F5F0D24C4668D00E21EC2 /* Build configuration list for PBXNativeTarget "AutoChangeableDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C08F5F0E24C4668D00E21EC2 /* Debug */,

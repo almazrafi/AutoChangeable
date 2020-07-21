@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C057F01823CB8EEB00C2D895 /* ChangeableCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C057F00E23CB8EEB00C2D895 /* ChangeableCopy.framework */; };
-		C057F01F23CB8EEB00C2D895 /* ChangeableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* ChangeableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C057F01823CB8EEB00C2D895 /* AutoChangeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C057F00E23CB8EEB00C2D895 /* AutoChangeable.framework */; };
+		C057F01F23CB8EEB00C2D895 /* AutoChangeable.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* AutoChangeable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C060B9D324C7854F004C5200 /* ChangeableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06DF3EE24BA4F170034B365 /* ChangeableWrapper.swift */; };
 		C060B9D424C78550004C5200 /* ChangeableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06DF3EE24BA4F170034B365 /* ChangeableWrapper.swift */; };
 		C060B9D524C78550004C5200 /* ChangeableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06DF3EE24BA4F170034B365 /* ChangeableWrapper.swift */; };
@@ -73,10 +73,10 @@
 		C08F66E024C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */; };
 		C08F66E124C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */; };
 		C08F66E224C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */; };
-		C0A01A3223CB90F200AC2C3A /* ChangeableCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A2923CB90F200AC2C3A /* ChangeableCopy.framework */; };
-		C0A01A4123CB912C00AC2C3A /* ChangeableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* ChangeableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A01A5023CB92EB00AC2C3A /* ChangeableCopy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A4723CB92EB00AC2C3A /* ChangeableCopy.framework */; };
-		C0A01A5E23CB92F200AC2C3A /* ChangeableCopy.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* ChangeableCopy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A01A3223CB90F200AC2C3A /* AutoChangeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A2923CB90F200AC2C3A /* AutoChangeable.framework */; };
+		C0A01A4123CB912C00AC2C3A /* AutoChangeable.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* AutoChangeable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A01A5023CB92EB00AC2C3A /* AutoChangeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A01A4723CB92EB00AC2C3A /* AutoChangeable.framework */; };
+		C0A01A5E23CB92F200AC2C3A /* AutoChangeable.h in Headers */ = {isa = PBXBuildFile; fileRef = C057F01123CB8EEB00C2D895 /* AutoChangeable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,31 +85,31 @@
 			containerPortal = C057F00523CB8EEB00C2D895 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C057F00D23CB8EEB00C2D895;
-			remoteInfo = ChangeableCopy;
+			remoteInfo = AutoChangeable;
 		};
 		C0A01A3323CB90F200AC2C3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C057F00523CB8EEB00C2D895 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C0A01A2823CB90F200AC2C3A;
-			remoteInfo = "ChangeableCopy macOS";
+			remoteInfo = "AutoChangeable macOS";
 		};
 		C0A01A5123CB92EB00AC2C3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C057F00523CB8EEB00C2D895 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C0A01A4623CB92EB00AC2C3A;
-			remoteInfo = "ChangeableCopy tvOS";
+			remoteInfo = "AutoChangeable tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C0007FFA23CBAAA5005F95E0 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		C006F1A22406B13E00C3F783 /* ChangeableCopy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangeableCopy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C057F00E23CB8EEB00C2D895 /* ChangeableCopy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangeableCopy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C057F01123CB8EEB00C2D895 /* ChangeableCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeableCopy.h; sourceTree = "<group>"; };
+		C006F1A22406B13E00C3F783 /* AutoChangeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoChangeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057F00E23CB8EEB00C2D895 /* AutoChangeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoChangeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057F01123CB8EEB00C2D895 /* AutoChangeable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoChangeable.h; sourceTree = "<group>"; };
 		C057F01223CB8EEB00C2D895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C057F01723CB8EEB00C2D895 /* ChangeableCopy Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChangeableCopy Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C057F01723CB8EEB00C2D895 /* AutoChangeable Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoChangeable Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C057F01E23CB8EEB00C2D895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C060B98624C702CC004C5200 /* Array+Changeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Changeable.swift"; sourceTree = "<group>"; };
 		C060B98B24C70338004C5200 /* Set+Changeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set+Changeable.swift"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		C08F66DF24C6425800E21EC2 /* UIEdgeInsetsChangingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsChangingTests.swift; sourceTree = "<group>"; };
 		C0A01A1423CB8FF300AC2C3A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C0A01A1523CB8FFC00AC2C3A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		C0A01A1623CB900800AC2C3A /* ChangeableCopy.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeableCopy.podspec; sourceTree = "<group>"; };
+		C0A01A1623CB900800AC2C3A /* AutoChangeable.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AutoChangeable.podspec; sourceTree = "<group>"; };
 		C0A01A1723CB900900AC2C3A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C0A01A1823CB900900AC2C3A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		C0A01A1923CB900900AC2C3A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -142,10 +142,10 @@
 		C0A01A1B23CB901C00AC2C3A /* .codecov.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .codecov.yml; sourceTree = "<group>"; };
 		C0A01A1C23CB901C00AC2C3A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C0A01A1D23CB901C00AC2C3A /* .ruby-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".ruby-version"; sourceTree = "<group>"; };
-		C0A01A2923CB90F200AC2C3A /* ChangeableCopy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangeableCopy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A01A3123CB90F200AC2C3A /* ChangeableCopy Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChangeableCopy Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A01A4723CB92EB00AC2C3A /* ChangeableCopy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChangeableCopy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A01A4F23CB92EB00AC2C3A /* ChangeableCopy Tests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChangeableCopy Tests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A01A2923CB90F200AC2C3A /* AutoChangeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoChangeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A01A3123CB90F200AC2C3A /* AutoChangeable Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoChangeable Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A01A4723CB92EB00AC2C3A /* AutoChangeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoChangeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A01A4F23CB92EB00AC2C3A /* AutoChangeable Tests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoChangeable Tests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A01A6323CB9B0A00AC2C3A /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
 		C0A01A6423CB9B1600AC2C3A /* Dangerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dangerfile; sourceTree = "<group>"; };
 		C0A01A6523CB9B1600AC2C3A /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C057F01823CB8EEB00C2D895 /* ChangeableCopy.framework in Frameworks */,
+				C057F01823CB8EEB00C2D895 /* AutoChangeable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A01A3223CB90F200AC2C3A /* ChangeableCopy.framework in Frameworks */,
+				C0A01A3223CB90F200AC2C3A /* AutoChangeable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A01A5023CB92EB00AC2C3A /* ChangeableCopy.framework in Frameworks */,
+				C0A01A5023CB92EB00AC2C3A /* AutoChangeable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				C057F01023CB8EEB00C2D895 /* Sources */,
-				C08F619F24C4772400E21EC2 /* Misc */,
+				C08F619F24C4772400E21EC2 /* Bin */,
 				C057F01B23CB8EEB00C2D895 /* Tests */,
 				C057F00F23CB8EEB00C2D895 /* Products */,
 				C08F5F1424C471F900E21EC2 /* Demo */,
@@ -225,7 +225,7 @@
 				C0A01A6623CB9B5900AC2C3A /* Brewfile */,
 				C0A01A6423CB9B1600AC2C3A /* Dangerfile */,
 				C0A01A6523CB9B1600AC2C3A /* Gemfile */,
-				C0A01A1623CB900800AC2C3A /* ChangeableCopy.podspec */,
+				C0A01A1623CB900800AC2C3A /* AutoChangeable.podspec */,
 				C0A01A1923CB900900AC2C3A /* LICENSE */,
 				C0A01A1823CB900900AC2C3A /* Package.swift */,
 				C0A01A1723CB900900AC2C3A /* README.md */,
@@ -235,13 +235,13 @@
 		C057F00F23CB8EEB00C2D895 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C057F00E23CB8EEB00C2D895 /* ChangeableCopy.framework */,
-				C057F01723CB8EEB00C2D895 /* ChangeableCopy Tests iOS.xctest */,
-				C0A01A2923CB90F200AC2C3A /* ChangeableCopy.framework */,
-				C0A01A3123CB90F200AC2C3A /* ChangeableCopy Tests macOS.xctest */,
-				C0A01A4723CB92EB00AC2C3A /* ChangeableCopy.framework */,
-				C0A01A4F23CB92EB00AC2C3A /* ChangeableCopy Tests tvOS.xctest */,
-				C006F1A22406B13E00C3F783 /* ChangeableCopy.framework */,
+				C057F00E23CB8EEB00C2D895 /* AutoChangeable.framework */,
+				C057F01723CB8EEB00C2D895 /* AutoChangeable Tests iOS.xctest */,
+				C0A01A2923CB90F200AC2C3A /* AutoChangeable.framework */,
+				C0A01A3123CB90F200AC2C3A /* AutoChangeable Tests macOS.xctest */,
+				C0A01A4723CB92EB00AC2C3A /* AutoChangeable.framework */,
+				C0A01A4F23CB92EB00AC2C3A /* AutoChangeable Tests tvOS.xctest */,
+				C006F1A22406B13E00C3F783 /* AutoChangeable.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 			children = (
 				C08F66BD24C639D800E21EC2 /* Extensions */,
 				C0A01A1423CB8FF300AC2C3A /* .swiftlint.yml */,
+				C057F01123CB8EEB00C2D895 /* AutoChangeable.h */,
 				C08F5EC224C3BD2A00E21EC2 /* AutoChangeable.swift */,
 				C06DF3E924BA4EA00034B365 /* Changeable.swift */,
-				C057F01123CB8EEB00C2D895 /* ChangeableCopy.h */,
 				C06DF3EE24BA4F170034B365 /* ChangeableWrapper.swift */,
 				C057F01223CB8EEB00C2D895 /* Info.plist */,
 			);
@@ -310,13 +310,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		C08F619F24C4772400E21EC2 /* Misc */ = {
+		C08F619F24C4772400E21EC2 /* Bin */ = {
 			isa = PBXGroup;
 			children = (
 				C08F61A024C4772400E21EC2 /* AutoChangeable.stencil */,
 				C08F61A124C4772400E21EC2 /* AutoChangeable */,
 			);
-			path = Misc;
+			path = Bin;
 			sourceTree = "<group>";
 		};
 		C08F66BD24C639D800E21EC2 /* Extensions */ = {
@@ -354,7 +354,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C057F01F23CB8EEB00C2D895 /* ChangeableCopy.h in Headers */,
+				C057F01F23CB8EEB00C2D895 /* AutoChangeable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +362,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A01A4123CB912C00AC2C3A /* ChangeableCopy.h in Headers */,
+				C0A01A4123CB912C00AC2C3A /* AutoChangeable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,16 +370,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A01A5E23CB92F200AC2C3A /* ChangeableCopy.h in Headers */,
+				C0A01A5E23CB92F200AC2C3A /* AutoChangeable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C006F1A12406B13E00C3F783 /* ChangeableCopy watchOS */ = {
+		C006F1A12406B13E00C3F783 /* AutoChangeable watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C006F1A92406B13E00C3F783 /* Build configuration list for PBXNativeTarget "ChangeableCopy watchOS" */;
+			buildConfigurationList = C006F1A92406B13E00C3F783 /* Build configuration list for PBXNativeTarget "AutoChangeable watchOS" */;
 			buildPhases = (
 				C006F1C42406B21000C3F783 /* SwiftLint */,
 				C006F19D2406B13E00C3F783 /* Headers */,
@@ -391,14 +391,14 @@
 			);
 			dependencies = (
 			);
-			name = "ChangeableCopy watchOS";
-			productName = "ChangeableCopy watchOS";
-			productReference = C006F1A22406B13E00C3F783 /* ChangeableCopy.framework */;
+			name = "AutoChangeable watchOS";
+			productName = "AutoChangeable watchOS";
+			productReference = C006F1A22406B13E00C3F783 /* AutoChangeable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C057F00D23CB8EEB00C2D895 /* ChangeableCopy iOS */ = {
+		C057F00D23CB8EEB00C2D895 /* AutoChangeable iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C057F02223CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "ChangeableCopy iOS" */;
+			buildConfigurationList = C057F02223CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "AutoChangeable iOS" */;
 			buildPhases = (
 				C0A01A2323CB907300AC2C3A /* SwiftLint */,
 				C057F00923CB8EEB00C2D895 /* Headers */,
@@ -410,14 +410,14 @@
 			);
 			dependencies = (
 			);
-			name = "ChangeableCopy iOS";
-			productName = ChangeableCopy;
-			productReference = C057F00E23CB8EEB00C2D895 /* ChangeableCopy.framework */;
+			name = "AutoChangeable iOS";
+			productName = AutoChangeable;
+			productReference = C057F00E23CB8EEB00C2D895 /* AutoChangeable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C057F01623CB8EEB00C2D895 /* ChangeableCopy Tests iOS */ = {
+		C057F01623CB8EEB00C2D895 /* AutoChangeable Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C057F02523CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "ChangeableCopy Tests iOS" */;
+			buildConfigurationList = C057F02523CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "AutoChangeable Tests iOS" */;
 			buildPhases = (
 				C057F01323CB8EEB00C2D895 /* Sources */,
 				C057F01423CB8EEB00C2D895 /* Frameworks */,
@@ -428,14 +428,14 @@
 			dependencies = (
 				C057F01A23CB8EEB00C2D895 /* PBXTargetDependency */,
 			);
-			name = "ChangeableCopy Tests iOS";
-			productName = ChangeableCopyTests;
-			productReference = C057F01723CB8EEB00C2D895 /* ChangeableCopy Tests iOS.xctest */;
+			name = "AutoChangeable Tests iOS";
+			productName = AutoChangeableTests;
+			productReference = C057F01723CB8EEB00C2D895 /* AutoChangeable Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C0A01A2823CB90F200AC2C3A /* ChangeableCopy macOS */ = {
+		C0A01A2823CB90F200AC2C3A /* AutoChangeable macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0A01A3A23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy macOS" */;
+			buildConfigurationList = C0A01A3A23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable macOS" */;
 			buildPhases = (
 				C0A01A6123CB931500AC2C3A /* SwiftLint */,
 				C0A01A2423CB90F200AC2C3A /* Headers */,
@@ -447,14 +447,14 @@
 			);
 			dependencies = (
 			);
-			name = "ChangeableCopy macOS";
-			productName = "ChangeableCopy macOS";
-			productReference = C0A01A2923CB90F200AC2C3A /* ChangeableCopy.framework */;
+			name = "AutoChangeable macOS";
+			productName = "AutoChangeable macOS";
+			productReference = C0A01A2923CB90F200AC2C3A /* AutoChangeable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C0A01A3023CB90F200AC2C3A /* ChangeableCopy Tests macOS */ = {
+		C0A01A3023CB90F200AC2C3A /* AutoChangeable Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0A01A3D23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy Tests macOS" */;
+			buildConfigurationList = C0A01A3D23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable Tests macOS" */;
 			buildPhases = (
 				C0A01A2D23CB90F200AC2C3A /* Sources */,
 				C0A01A2E23CB90F200AC2C3A /* Frameworks */,
@@ -465,14 +465,14 @@
 			dependencies = (
 				C0A01A3423CB90F200AC2C3A /* PBXTargetDependency */,
 			);
-			name = "ChangeableCopy Tests macOS";
-			productName = "ChangeableCopy macOSTests";
-			productReference = C0A01A3123CB90F200AC2C3A /* ChangeableCopy Tests macOS.xctest */;
+			name = "AutoChangeable Tests macOS";
+			productName = "AutoChangeable macOSTests";
+			productReference = C0A01A3123CB90F200AC2C3A /* AutoChangeable Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C0A01A4623CB92EB00AC2C3A /* ChangeableCopy tvOS */ = {
+		C0A01A4623CB92EB00AC2C3A /* AutoChangeable tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0A01A5823CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy tvOS" */;
+			buildConfigurationList = C0A01A5823CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable tvOS" */;
 			buildPhases = (
 				C0A01A6223CB932700AC2C3A /* SwiftLint */,
 				C0A01A4223CB92EB00AC2C3A /* Headers */,
@@ -484,14 +484,14 @@
 			);
 			dependencies = (
 			);
-			name = "ChangeableCopy tvOS";
-			productName = "ChangeableCopy tvOS";
-			productReference = C0A01A4723CB92EB00AC2C3A /* ChangeableCopy.framework */;
+			name = "AutoChangeable tvOS";
+			productName = "AutoChangeable tvOS";
+			productReference = C0A01A4723CB92EB00AC2C3A /* AutoChangeable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C0A01A4E23CB92EB00AC2C3A /* ChangeableCopy Tests tvOS */ = {
+		C0A01A4E23CB92EB00AC2C3A /* AutoChangeable Tests tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0A01A5B23CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy Tests tvOS" */;
+			buildConfigurationList = C0A01A5B23CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable Tests tvOS" */;
 			buildPhases = (
 				C0A01A4B23CB92EB00AC2C3A /* Sources */,
 				C0A01A4C23CB92EB00AC2C3A /* Frameworks */,
@@ -502,9 +502,9 @@
 			dependencies = (
 				C0A01A5223CB92EB00AC2C3A /* PBXTargetDependency */,
 			);
-			name = "ChangeableCopy Tests tvOS";
-			productName = "ChangeableCopy tvOSTests";
-			productReference = C0A01A4F23CB92EB00AC2C3A /* ChangeableCopy Tests tvOS.xctest */;
+			name = "AutoChangeable Tests tvOS";
+			productName = "AutoChangeable tvOSTests";
+			productReference = C0A01A4F23CB92EB00AC2C3A /* AutoChangeable Tests tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -547,7 +547,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C057F00823CB8EEB00C2D895 /* Build configuration list for PBXProject "ChangeableCopy" */;
+			buildConfigurationList = C057F00823CB8EEB00C2D895 /* Build configuration list for PBXProject "AutoChangeable" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -560,13 +560,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C057F00D23CB8EEB00C2D895 /* ChangeableCopy iOS */,
-				C0A01A2823CB90F200AC2C3A /* ChangeableCopy macOS */,
-				C0A01A4623CB92EB00AC2C3A /* ChangeableCopy tvOS */,
-				C006F1A12406B13E00C3F783 /* ChangeableCopy watchOS */,
-				C057F01623CB8EEB00C2D895 /* ChangeableCopy Tests iOS */,
-				C0A01A3023CB90F200AC2C3A /* ChangeableCopy Tests macOS */,
-				C0A01A4E23CB92EB00AC2C3A /* ChangeableCopy Tests tvOS */,
+				C057F00D23CB8EEB00C2D895 /* AutoChangeable iOS */,
+				C0A01A2823CB90F200AC2C3A /* AutoChangeable macOS */,
+				C0A01A4623CB92EB00AC2C3A /* AutoChangeable tvOS */,
+				C006F1A12406B13E00C3F783 /* AutoChangeable watchOS */,
+				C057F01623CB8EEB00C2D895 /* AutoChangeable Tests iOS */,
+				C0A01A3023CB90F200AC2C3A /* AutoChangeable Tests macOS */,
+				C0A01A4E23CB92EB00AC2C3A /* AutoChangeable Tests tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -817,17 +817,17 @@
 /* Begin PBXTargetDependency section */
 		C057F01A23CB8EEB00C2D895 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C057F00D23CB8EEB00C2D895 /* ChangeableCopy iOS */;
+			target = C057F00D23CB8EEB00C2D895 /* AutoChangeable iOS */;
 			targetProxy = C057F01923CB8EEB00C2D895 /* PBXContainerItemProxy */;
 		};
 		C0A01A3423CB90F200AC2C3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0A01A2823CB90F200AC2C3A /* ChangeableCopy macOS */;
+			target = C0A01A2823CB90F200AC2C3A /* AutoChangeable macOS */;
 			targetProxy = C0A01A3323CB90F200AC2C3A /* PBXContainerItemProxy */;
 		};
 		C0A01A5223CB92EB00AC2C3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0A01A4623CB92EB00AC2C3A /* ChangeableCopy tvOS */;
+			target = C0A01A4623CB92EB00AC2C3A /* AutoChangeable tvOS */;
 			targetProxy = C0A01A5123CB92EB00AC2C3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -852,8 +852,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -883,8 +883,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1034,8 +1034,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1063,8 +1063,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1086,7 +1086,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1109,7 +1109,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1137,8 +1137,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1167,8 +1167,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1191,7 +1191,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1215,7 +1215,7 @@
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -1242,8 +1242,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1272,8 +1272,8 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.ChangeableCopy;
-				PRODUCT_NAME = ChangeableCopy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almazrafi.AutoChangeable;
+				PRODUCT_NAME = AutoChangeable;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1296,7 +1296,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy.Tests-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable.Tests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1320,7 +1320,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.ChangeableCopy.Tests-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almazrafi.AutoChangeable.Tests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 5.0;
@@ -1333,7 +1333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C006F1A92406B13E00C3F783 /* Build configuration list for PBXNativeTarget "ChangeableCopy watchOS" */ = {
+		C006F1A92406B13E00C3F783 /* Build configuration list for PBXNativeTarget "AutoChangeable watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C006F1A72406B13E00C3F783 /* Debug */,
@@ -1342,7 +1342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C057F00823CB8EEB00C2D895 /* Build configuration list for PBXProject "ChangeableCopy" */ = {
+		C057F00823CB8EEB00C2D895 /* Build configuration list for PBXProject "AutoChangeable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C057F02023CB8EEB00C2D895 /* Debug */,
@@ -1351,7 +1351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C057F02223CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "ChangeableCopy iOS" */ = {
+		C057F02223CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "AutoChangeable iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C057F02323CB8EEB00C2D895 /* Debug */,
@@ -1360,7 +1360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C057F02523CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "ChangeableCopy Tests iOS" */ = {
+		C057F02523CB8EEB00C2D895 /* Build configuration list for PBXNativeTarget "AutoChangeable Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C057F02623CB8EEB00C2D895 /* Debug */,
@@ -1369,7 +1369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0A01A3A23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy macOS" */ = {
+		C0A01A3A23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A01A3B23CB90F200AC2C3A /* Debug */,
@@ -1378,7 +1378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0A01A3D23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy Tests macOS" */ = {
+		C0A01A3D23CB90F200AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A01A3E23CB90F200AC2C3A /* Debug */,
@@ -1387,7 +1387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0A01A5823CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy tvOS" */ = {
+		C0A01A5823CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A01A5923CB92EB00AC2C3A /* Debug */,
@@ -1396,7 +1396,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0A01A5B23CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "ChangeableCopy Tests tvOS" */ = {
+		C0A01A5B23CB92EB00AC2C3A /* Build configuration list for PBXNativeTarget "AutoChangeable Tests tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A01A5C23CB92EB00AC2C3A /* Debug */,

@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "ChangeableCopy",
+    name: "AutoChangeable",
     products: [
         .library(
-            name: "ChangeableCopy",
-            targets: ["ChangeableCopy"]
+            name: "AutoChangeable",
+            targets: ["AutoChangeable"]
         )
     ],
     targets: [
         .target(
-            name: "ChangeableCopy",
+            name: "AutoChangeable",
             path: "Sources"
         ),
         .testTarget(
-            name: "ChangeableCopyTests",
-            dependencies: ["ChangeableCopy"],
+            name: "AutoChangeableTests",
+            dependencies: ["AutoChangeable"],
             path: "Tests"
         )
     ],

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ChangeableCopy Demo.xcodeproj">
+      location = "self:AutoChangeableDemo.xcodeproj">
    </FileRef>
 </Workspace>

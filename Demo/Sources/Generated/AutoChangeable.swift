@@ -6,13 +6,13 @@
 
 import Foundation
 
-#if canImport(ChangeableCopy)
-import ChangeableCopy
+#if canImport(AutoChangeable)
+import AutoChangeable
 #endif
 
 extension Company {
 
-    internal init(from copy: ChangeableCopy<Company>) {
+    internal init(from copy: ChangeableWrapper<Company>) {
         self.init(
             name: copy.name,
             country: copy.country
@@ -22,7 +22,7 @@ extension Company {
 
 extension User {
 
-    internal init(from copy: ChangeableCopy<User>) {
+    internal init(from copy: ChangeableWrapper<User>) {
         self.init(
             id: copy.id,
             name: copy.name,

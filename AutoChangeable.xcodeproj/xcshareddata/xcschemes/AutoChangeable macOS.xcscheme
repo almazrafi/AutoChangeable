@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0A01A4623CB92EB00AC2C3A"
-               BuildableName = "ChangeableCopy.framework"
-               BlueprintName = "ChangeableCopy tvOS"
-               ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+               BlueprintIdentifier = "C0A01A2823CB90F200AC2C3A"
+               BuildableName = "AutoChangeable.framework"
+               BlueprintName = "AutoChangeable macOS"
+               ReferencedContainer = "container:AutoChangeable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0A01A4623CB92EB00AC2C3A"
-            BuildableName = "ChangeableCopy.framework"
-            BlueprintName = "ChangeableCopy tvOS"
-            ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+            BlueprintIdentifier = "C0A01A2823CB90F200AC2C3A"
+            BuildableName = "AutoChangeable.framework"
+            BlueprintName = "AutoChangeable macOS"
+            ReferencedContainer = "container:AutoChangeable.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <Testables>
@@ -43,10 +43,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0A01A4E23CB92EB00AC2C3A"
-               BuildableName = "ChangeableCopy Tests tvOS.xctest"
-               BlueprintName = "ChangeableCopy Tests tvOS"
-               ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+               BlueprintIdentifier = "C0A01A3023CB90F200AC2C3A"
+               BuildableName = "AutoChangeable Tests macOS.xctest"
+               BlueprintName = "AutoChangeable Tests macOS"
+               ReferencedContainer = "container:AutoChangeable.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,10 +71,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0A01A4623CB92EB00AC2C3A"
-            BuildableName = "ChangeableCopy.framework"
-            BlueprintName = "ChangeableCopy tvOS"
-            ReferencedContainer = "container:ChangeableCopy.xcodeproj">
+            BlueprintIdentifier = "C0A01A2823CB90F200AC2C3A"
+            BuildableName = "AutoChangeable.framework"
+            BlueprintName = "AutoChangeable macOS"
+            ReferencedContainer = "container:AutoChangeable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

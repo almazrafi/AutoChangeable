@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C08F5EF824C4668B00E21EC2"
-               BuildableName = "ChangeableCopyDemo.app"
-               BlueprintName = "ChangeableCopyDemo"
-               ReferencedContainer = "container:ChangeableCopyDemo.xcodeproj">
+               BuildableName = "AutoChangeableDemo.app"
+               BlueprintName = "AutoChangeableDemo"
+               ReferencedContainer = "container:AutoChangeableDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C08F5EF824C4668B00E21EC2"
-            BuildableName = "ChangeableCopyDemo.app"
-            BlueprintName = "ChangeableCopyDemo"
-            ReferencedContainer = "container:ChangeableCopyDemo.xcodeproj">
+            BuildableName = "AutoChangeableDemo.app"
+            BlueprintName = "AutoChangeableDemo"
+            ReferencedContainer = "container:AutoChangeableDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C08F5EF824C4668B00E21EC2"
-            BuildableName = "ChangeableCopyDemo.app"
-            BlueprintName = "ChangeableCopyDemo"
-            ReferencedContainer = "container:ChangeableCopyDemo.xcodeproj">
+            BuildableName = "AutoChangeableDemo.app"
+            BlueprintName = "AutoChangeableDemo"
+            ReferencedContainer = "container:AutoChangeableDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

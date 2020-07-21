@@ -1,15 +1,15 @@
-# ChangeableCopy
-[![Build Status](https://github.com/almazrafi/ChangeableCopy/workflows/CI/badge.svg?branch=master)](https://github.com/almazrafi/ChangeableCopy/actions)
-[![Codecov](https://codecov.io/gh/almazrafi/ChangeableCopy/branch/master/graph/badge.svg)](https://codecov.io/gh/almazrafi/ChangeableCopy)
-[![Cocoapods](https://img.shields.io/cocoapods/v/ChangeableCopy.svg?style=flat)](http://cocoapods.org/pods/ChangeableCopy)
+# AutoChangeable
+[![Build Status](https://github.com/almazrafi/AutoChangeable/workflows/CI/badge.svg?branch=master)](https://github.com/almazrafi/AutoChangeable/actions)
+[![Codecov](https://codecov.io/gh/almazrafi/AutoChangeable/branch/master/graph/badge.svg)](https://codecov.io/gh/almazrafi/AutoChangeable)
+[![Cocoapods](https://img.shields.io/cocoapods/v/AutoChangeable.svg?style=flat)](http://cocoapods.org/pods/AutoChangeable)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
-[![Platforms](https://img.shields.io/cocoapods/p/ChangeableCopy.svg?style=flat)](https://developer.apple.com/discover/)
+[![Platforms](https://img.shields.io/cocoapods/p/AutoChangeable.svg?style=flat)](https://developer.apple.com/discover/)
 [![Xcode](https://img.shields.io/badge/Xcode-11-blue.svg)](https://developer.apple.com/xcode)
 [![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
-[![License](https://img.shields.io/github/license/almazrafi/ChangeableCopy)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/almazrafi/AutoChangeable)](https://opensource.org/licenses/MIT)
 
-ChangeableCopy is a simple library that provides a convenient way to copy instances of Swift types with changed properties:
+AutoChangeable is a simple library that provides a convenient way to copy instances of Swift types with changed properties:
 
 ```swift
 struct User: AutoChangeable {
@@ -33,7 +33,7 @@ let steveJobs = steve.changing { newUser in
 - Swift 5.1+
 
 ## Usage
-The most convenient way to use ChangeableCopy is to configure [code generation](#code-generation)
+The most convenient way to use AutoChangeable is to configure [code generation](#code-generation)
 and conform your structs to the `AutoChangeable` protocol:
 
 ```swift
@@ -49,7 +49,7 @@ you just need to implement initialization from a copy **manually**:
 
 ```swift
 extension User: Changeable {
-    init(from copy: ChangeableCopy<Self>) {
+    init(from copy: ChangeableWrapper<Self>) {
         self.init(
             id: copy.id,
             name: copy.name,
@@ -66,13 +66,13 @@ extension User: Changeable {
 $ gem install cocoapods
 ```
 
-To integrate ChangeableCopy into your Xcode project using [CocoaPods](http://cocoapods.org), specify it in your `Podfile`:
+To integrate AutoChangeable into your Xcode project using [CocoaPods](http://cocoapods.org), specify it in your `Podfile`:
 ```ruby
 platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'ChangeableCopy'
+    pod 'AutoChangeable'
 end
 ```
 
@@ -88,22 +88,22 @@ $ brew update
 $ brew install carthage
 ```
 
-To integrate ChangeableCopy into your Xcode project using Carthage, specify it in your `Cartfile`:
+To integrate AutoChangeable into your Xcode project using Carthage, specify it in your `Cartfile`:
 ```ogdl
-github "almazrafi/ChangeableCopy" ~> 1.0.0
+github "almazrafi/AutoChangeable" ~> 1.0.0
 ```
 
-Finally run `carthage update` to build the framework and drag the built `ChangeableCopy.framework` into your Xcode project.
+Finally run `carthage update` to build the framework and drag the built `AutoChangeable.framework` into your Xcode project.
 
 ### Swift Package Manager
 The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-To integrate ChangeableCopy into your Xcode project using Swift Package Manager,
+To integrate AutoChangeable into your Xcode project using Swift Package Manager,
 add the following as a dependency to your `Package.swift`:
 ```swift
-.package(url: "https://github.com/almazrafi/ChangeableCopy.git", from: "1.0.0")
+.package(url: "https://github.com/almazrafi/AutoChangeable.git", from: "1.0.0")
 ```
-and then specify `"ChangeableCopy"` as a dependency of the Target in which you wish to use ChangeableCopy.
+and then specify `"AutoChangeable"` as a dependency of the Target in which you wish to use AutoChangeable.
 
 Here's an example `Package.swift`:
 ```swift
@@ -116,10 +116,10 @@ let package = Package(
         .library(name: "MyPackage", targets: ["MyPackage"])
     ],
     dependencies: [
-        .package(url: "https://github.com/almazrafi/ChangeableCopy.git", from: "1.0.0")
+        .package(url: "https://github.com/almazrafi/AutoChangeable.git", from: "1.0.0")
     ],
     targets: [
-        .target(name: "MyPackage", dependencies: ["ChangeableCopy"])
+        .target(name: "MyPackage", dependencies: ["AutoChangeable"])
     ]
 )
 ```
@@ -128,16 +128,16 @@ let package = Package(
 To generate code for the `AutoChangeable` protocol, the first thing you need to do
 is to install the [Sourcery](https://github.com/krzysztofzablocki/Sourcery) command line tool.
 
-You can use a ready-made [Stencil](https://github.com/stencilproject/Stencil)-template for Sourcery, 
-which can be downloaded from the latest release files 
-on the [repository releases page](https://github.com/almazrafi/ChangeableCopy/releases).
+You can use a ready-made [Stencil](https://github.com/stencilproject/Stencil)-template for Sourcery,
+which can be downloaded from the latest release files
+on the [repository releases page](https://github.com/almazrafi/AutoChangeable/releases).
 
-If ChangeableCopy is installed using CocoaPods, it already contains this template
+If AutoChangeable is installed using CocoaPods, it already contains this template
 and a helper script for generating code.
 You can either run it manually or in a custom build phase using the following command:
 
 ``` sh
-Pods/ChangeableCopy/Misc/AutoChangeable \
+Pods/AutoChangeable/Bin/AutoChangeable \
 --sources Path/to/yours/sources \
 --output Path/to/generated/file
 ```
@@ -149,4 +149,4 @@ Pods/ChangeableCopy/Misc/AutoChangeable \
 - If you want to contribute, submit a pull request.
 
 ## License
-ChangeableCopy is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+AutoChangeable is available under the MIT license. See the [LICENSE](LICENSE) file for more info.

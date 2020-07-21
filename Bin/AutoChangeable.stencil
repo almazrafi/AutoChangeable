@@ -2,8 +2,8 @@
 
 import Foundation
 
-#if canImport(ChangeableCopy)
-import ChangeableCopy
+#if canImport(AutoChangeable)
+import AutoChangeable
 #endif
 
 {% for type in types.structs where type.based.AutoChangeable %}

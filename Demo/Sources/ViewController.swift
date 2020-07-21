@@ -1,5 +1,5 @@
 import UIKit
-import ChangeableCopy
+import AutoChangeable
 
 protocol SomeCopy {
     associatedtype Original

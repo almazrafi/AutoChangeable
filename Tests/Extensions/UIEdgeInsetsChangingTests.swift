@@ -2,7 +2,7 @@
 import UIKit
 import XCTest
 
-@testable import ChangeableCopy
+@testable import AutoChangeable
 
 class UIEdgeInsetsChangingTests: XCTestCase {
 

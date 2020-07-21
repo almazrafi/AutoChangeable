@@ -2,7 +2,7 @@
 import CoreGraphics
 import XCTest
 
-@testable import ChangeableCopy
+@testable import AutoChangeable
 
 class CGRectChangingTests: XCTestCase {
 
