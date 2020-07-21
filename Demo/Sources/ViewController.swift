@@ -1,21 +1,47 @@
 import UIKit
 import ChangeableCopy
 
+protocol SomeCopy {
+    associatedtype Original
+}
+
+protocol Some {
+
+    associatedtype Copy: SomeCopy where Copy.Original == Self
+
+    init(from copy: Copy)
+}
+
+extension Some where Copy == Self {
+    init(from copy: Copy) {
+        self = copy
+    }
+}
+
+class New: Some, SomeCopy {
+    typealias Copy = New
+    typealias Original = New
+
+    var title: String
+    var description: String
+
+    init(title: String, description: String) {
+        self.title = title
+        self.description = description
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let apple = Company(name: "Apple", country: "USA")
-        let steve = User(id: 1, name: "Steve", age: 21, company: apple)
+        let new = New(title: "", description: "")
+        let new2 = New(from: new)
 
-        let steveJobs = steve.changing { newUser in
-            newUser.name = "Steve Jobs"
-            newUser.age = 30
-            newUser.company.name = "NeXT"
-        }
+        new.title = "123"
 
-        print("original: \(steve)")
-        print("changed: \(steveJobs)")
+        print(new.title)
+        print(new2.title)
     }
 }

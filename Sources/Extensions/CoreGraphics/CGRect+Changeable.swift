@@ -3,9 +3,7 @@ import CoreGraphics
 
 extension CGRect: Changeable {
 
-    // MARK: - Initializers
-
-    public init(from copy: ChangeableCopy<Self>) {
+    public init(copy: ChangeableWrapper<Self>) {
         self.init(
             origin: copy.origin,
             size: copy.size

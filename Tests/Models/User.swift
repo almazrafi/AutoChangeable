@@ -24,7 +24,7 @@ extension User: Changeable {
 
     // MARK: - Initializers
 
-    init(from copy: ChangeableCopy<User>) {
+    init(copy: ChangeableWrapper<Self>) {
         self.init(
             id: copy.id,
             name: copy.name,

@@ -13,8 +13,11 @@ extension Company: Changeable {
 
     // MARK: - Initializers
 
-    init(from copy: ChangeableCopy<Company>) {
-        self.init(name: copy.name, country: copy.country)
+    init(copy: ChangeableWrapper<Self>) {
+        self.init(
+            name: copy.name,
+            country: copy.country
+        )
     }
 }
 

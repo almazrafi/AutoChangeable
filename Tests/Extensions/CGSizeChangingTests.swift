@@ -6,8 +6,6 @@ import XCTest
 
 class CGSizeChangingTests: XCTestCase {
 
-    // MARK: - Instance Methods
-
     func testThatInstanceCanBeCopiedWithoutChanges() {
         let expectedSize = CGSize(width: 123, height: 456)
         let size = expectedSize

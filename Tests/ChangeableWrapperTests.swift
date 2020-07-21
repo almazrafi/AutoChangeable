@@ -2,7 +2,7 @@ import XCTest
 
 @testable import ChangeableCopy
 
-class ChangeableCopyTests: XCTestCase {
+class ChangeableWrapperTests: XCTestCase {
 
     // MARK: - Instance Methods
 
@@ -10,7 +10,7 @@ class ChangeableCopyTests: XCTestCase {
         let expectedCompanyName = Company.next.name
 
         let company = Company.apple
-        var companyCopy = ChangeableCopy(original: company)
+        var companyCopy = ChangeableWrapper(wrapped: company)
 
         companyCopy.name = expectedCompanyName
 
@@ -22,7 +22,7 @@ class ChangeableCopyTests: XCTestCase {
         let expectedCompanyCountry = Company.apple.country
 
         let company = Company.noname
-        var companyCopy = ChangeableCopy(original: company)
+        var companyCopy = ChangeableWrapper(wrapped: company)
 
         companyCopy.country = expectedCompanyCountry
 
@@ -34,7 +34,7 @@ class ChangeableCopyTests: XCTestCase {
         let expectedCompanyCountry = Company.noname.country
 
         let company = Company.apple
-        var companyCopy = ChangeableCopy(original: company)
+        var companyCopy = ChangeableWrapper(wrapped: company)
 
         companyCopy.country = expectedCompanyCountry
 
@@ -47,7 +47,7 @@ class ChangeableCopyTests: XCTestCase {
         let expectedCompanyCountry = Company.apple.country
 
         let company = Company.noname
-        var companyCopy = ChangeableCopy(original: company)
+        var companyCopy = ChangeableWrapper(wrapped: company)
 
         companyCopy.name = expectedCompanyName
         companyCopy.country = expectedCompanyCountry
@@ -60,7 +60,7 @@ class ChangeableCopyTests: XCTestCase {
         let expectedCompanyName = Company.apple.name
 
         let user = User.youngSteve
-        var userCopy = ChangeableCopy(original: user)
+        var userCopy = ChangeableWrapper(wrapped: user)
 
         userCopy.company.name = expectedCompanyName
 
@@ -76,7 +76,7 @@ class ChangeableCopyTests: XCTestCase {
         let expectedCompanyCountry = Company.apple.country
 
         let user = User.youngSteve
-        var userCopy = ChangeableCopy(original: user)
+        var userCopy = ChangeableWrapper(wrapped: user)
 
         userCopy.company.country = expectedCompanyCountry
 
@@ -92,7 +92,7 @@ class ChangeableCopyTests: XCTestCase {
         let expectedCompanyCountry = Company.noname.country
 
         let user = User.appleSteve
-        var userCopy = ChangeableCopy(original: user)
+        var userCopy = ChangeableWrapper(wrapped: user)
 
         userCopy.company.country = expectedCompanyCountry
 
@@ -105,8 +105,8 @@ class ChangeableCopyTests: XCTestCase {
     }
 
     func testThatCopyCanBeEqualToAnotherCopy() {
-        var lhsUserCopy = ChangeableCopy(original: User.youngSteve)
-        var rhsUserCopy = ChangeableCopy(original: User.youngSteve)
+        var lhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
+        var rhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
 
         lhsUserCopy.id = 123
         rhsUserCopy.id = 123
@@ -115,8 +115,8 @@ class ChangeableCopyTests: XCTestCase {
     }
 
     func testThatCopyCanNotBeEqualToAnotherCopy() {
-        var lhsUserCopy = ChangeableCopy(original: User.appleSteve)
-        var rhsUserCopy = ChangeableCopy(original: User.appleSteve)
+        var lhsUserCopy = ChangeableWrapper(wrapped: User.appleSteve)
+        var rhsUserCopy = ChangeableWrapper(wrapped: User.appleSteve)
 
         lhsUserCopy.id = 123
         rhsUserCopy.id = 456
@@ -125,21 +125,21 @@ class ChangeableCopyTests: XCTestCase {
     }
 
     func testThatCopyCanBeHashed() {
-        var firstUserCopy = ChangeableCopy(original: User.nextSteve)
-        var secondUserCopy = ChangeableCopy(original: User.nextSteve)
+        var firstUserCopy = ChangeableWrapper(wrapped: User.nextSteve)
+        var secondUserCopy = ChangeableWrapper(wrapped: User.nextSteve)
 
         firstUserCopy.id = 123
         secondUserCopy.id = 123
 
-        let set: Set<ChangeableCopy<User>> = [firstUserCopy, secondUserCopy]
+        let set: Set<ChangeableWrapper<User>> = [firstUserCopy, secondUserCopy]
 
         XCTAssertTrue(set.contains(firstUserCopy))
         XCTAssertTrue(set.contains(secondUserCopy))
     }
 
     func testThatCopyCanBeGreaterThanAnotherCopy() {
-        var lhsUserCopy = ChangeableCopy(original: User.youngSteve)
-        var rhsUserCopy = ChangeableCopy(original: User.youngSteve)
+        var lhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
+        var rhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
 
         lhsUserCopy.age = 46
         rhsUserCopy.age = 23
@@ -148,8 +148,8 @@ class ChangeableCopyTests: XCTestCase {
     }
 
     func testThatCopyCanBeLessThanAnotherCopy() {
-        var lhsUserCopy = ChangeableCopy(original: User.youngSteve)
-        var rhsUserCopy = ChangeableCopy(original: User.youngSteve)
+        var lhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
+        var rhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
 
         lhsUserCopy.age = 23
         rhsUserCopy.age = 46
@@ -165,7 +165,7 @@ class ChangeableCopyTests: XCTestCase {
 
         do {
             let jsonData = try jsonEncoder.encode(expectedCompany)
-            let companyCopy = try jsonDecoder.decode(ChangeableCopy<Company>.self, from: jsonData)
+            let companyCopy = try jsonDecoder.decode(ChangeableWrapper<Company>.self, from: jsonData)
 
             XCTAssertEqual(companyCopy.name, expectedCompany.name)
             XCTAssertEqual(companyCopy.country, expectedCompany.country)
@@ -178,7 +178,7 @@ class ChangeableCopyTests: XCTestCase {
     func testThatCopyCanBeEncoded() {
         let expectedCompany = Company.next
 
-        var companyCopy = ChangeableCopy(original: Company.apple)
+        var companyCopy = ChangeableWrapper(wrapped: Company.apple)
 
         companyCopy.name = expectedCompany.name
         companyCopy.country = expectedCompany.country

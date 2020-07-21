@@ -3,7 +3,7 @@ import UIKit
 
 extension UIEdgeInsets: Changeable {
 
-    public init(from copy: ChangeableCopy<UIEdgeInsets>) {
+    public init(copy: ChangeableWrapper<Self>) {
         self.init(
             top: copy.top,
             left: copy.left,

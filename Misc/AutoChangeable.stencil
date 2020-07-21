@@ -10,7 +10,7 @@ import ChangeableCopy
 {% if type.accessLevel != "private" %}
 extension {{ type.name }} {
 
-    {{ type.accessLevel }} init(from copy: ChangeableCopy<{{ type.name }}>) {
+    {{ type.accessLevel }} init(from copy: ChangeableWrapper<{{ type.name }}>) {
         self.init(
         {% for variable in type.storedVariables %}
             {% if forloop.last %}

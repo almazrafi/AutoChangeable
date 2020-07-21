@@ -6,8 +6,6 @@ import XCTest
 
 class CGRectChangingTests: XCTestCase {
 
-    // MARK: - Instance Methods
-
     func testThatInstanceCanBeCopiedWithoutChanges() {
         let expectedRect = CGRect(
             origin: CGPoint(x: 12, y: 34),

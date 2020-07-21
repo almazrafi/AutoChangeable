@@ -2,20 +2,29 @@ import Foundation
 
 public protocol Changeable {
 
-    // MARK: - Instance Methods
+    associatedtype ChangeableCopy
 
-    init(from copy: ChangeableCopy<Self>)
+    var changeableCopy: ChangeableCopy { get }
+
+    init(copy: ChangeableCopy)
+}
+
+extension Changeable where ChangeableCopy == Self {
+
+    public var changeableCopy: ChangeableCopy { self }
+
+    public init(copy: ChangeableCopy) {
+        self = copy
+    }
 }
 
 extension Changeable {
 
-    // MARK: - Instance Methods
-
-    public func changing(_ change: (inout ChangeableCopy<Self>) -> Void) -> Self {
-        var copy = ChangeableCopy<Self>(original: self)
+    public func changing(_ change: (inout ChangeableCopy) -> Void) -> Self {
+        var copy = self.changeableCopy
 
         change(&copy)
 
-        return Self(from: copy)
+        return Self(copy: copy)
     }
 }

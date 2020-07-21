@@ -6,8 +6,6 @@ import XCTest
 
 class CGPointChangingTests: XCTestCase {
 
-    // MARK: - Instance Methods
-
     func testThatInstanceCanBeCopiedWithoutChanges() {
         let expectedPoint = CGPoint(x: 123, y: 456)
         let point = expectedPoint

@@ -3,9 +3,7 @@ import CoreGraphics
 
 extension CGSize: Changeable {
 
-    // MARK: - Initializers
-
-    public init(from copy: ChangeableCopy<Self>) {
+    public init(copy: ChangeableWrapper<Self>) {
         self.init(
             width: copy.width,
             height: copy.height

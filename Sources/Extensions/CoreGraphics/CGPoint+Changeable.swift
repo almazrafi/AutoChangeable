@@ -3,9 +3,7 @@ import CoreGraphics
 
 extension CGPoint: Changeable {
 
-    // MARK: - Initializers
-
-    public init(from copy: ChangeableCopy<Self>) {
+    public init(copy: ChangeableWrapper<Self>) {
         self.init(
             x: copy.x,
             y: copy.y
