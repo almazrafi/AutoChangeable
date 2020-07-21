@@ -49,7 +49,7 @@ you just need to implement initialization from a copy **manually**:
 
 ```swift
 extension User: Changeable {
-    init(from copy: ChangeableWrapper<Self>) {
+    init(copy: ChangeableWrapper<Self>) {
         self.init(
             id: copy.id,
             name: copy.name,
@@ -124,7 +124,7 @@ let package = Package(
 )
 ```
 
-## Code generation
+## Code Generation
 To generate code for the `AutoChangeable` protocol, the first thing you need to do
 is to install the [Sourcery](https://github.com/krzysztofzablocki/Sourcery) command line tool.
 
