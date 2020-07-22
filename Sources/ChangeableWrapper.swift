@@ -6,7 +6,7 @@ public struct ChangeableWrapper<Wrapped> {
     private let wrapped: Wrapped
     private var changes: [PartialKeyPath<Wrapped>: Any] = [:]
 
-    public init(wrapped: Wrapped) {
+    public init(_ wrapped: Wrapped) {
         self.wrapped = wrapped
     }
 
@@ -24,7 +24,7 @@ public struct ChangeableWrapper<Wrapped> {
 extension Changeable where ChangeableCopy == ChangeableWrapper<Self> {
 
     public var changeableCopy: ChangeableCopy {
-        ChangeableCopy(wrapped: self)
+        ChangeableCopy(self)
     }
 }
 
@@ -52,7 +52,7 @@ extension ChangeableWrapper: Comparable where Wrapped: Comparable & Changeable, 
 extension ChangeableWrapper: Decodable where Wrapped: Decodable & Changeable, Wrapped.ChangeableCopy == Self {
 
     public init(from decoder: Decoder) throws {
-        self.init(wrapped: try Wrapped(from: decoder))
+        self.init(try Wrapped(from: decoder))
     }
 }
 
