@@ -10,7 +10,7 @@ class ChangeableWrapperTests: XCTestCase {
         let expectedCompanyName = Company.next.name
 
         let company = Company.apple
-        var companyCopy = ChangeableWrapper(wrapped: company)
+        var companyCopy = ChangeableWrapper(company)
 
         companyCopy.name = expectedCompanyName
 
@@ -22,7 +22,7 @@ class ChangeableWrapperTests: XCTestCase {
         let expectedCompanyCountry = Company.apple.country
 
         let company = Company.noname
-        var companyCopy = ChangeableWrapper(wrapped: company)
+        var companyCopy = ChangeableWrapper(company)
 
         companyCopy.country = expectedCompanyCountry
 
@@ -34,7 +34,7 @@ class ChangeableWrapperTests: XCTestCase {
         let expectedCompanyCountry = Company.noname.country
 
         let company = Company.apple
-        var companyCopy = ChangeableWrapper(wrapped: company)
+        var companyCopy = ChangeableWrapper(company)
 
         companyCopy.country = expectedCompanyCountry
 
@@ -47,7 +47,7 @@ class ChangeableWrapperTests: XCTestCase {
         let expectedCompanyCountry = Company.apple.country
 
         let company = Company.noname
-        var companyCopy = ChangeableWrapper(wrapped: company)
+        var companyCopy = ChangeableWrapper(company)
 
         companyCopy.name = expectedCompanyName
         companyCopy.country = expectedCompanyCountry
@@ -60,7 +60,7 @@ class ChangeableWrapperTests: XCTestCase {
         let expectedCompanyName = Company.apple.name
 
         let user = User.youngSteve
-        var userCopy = ChangeableWrapper(wrapped: user)
+        var userCopy = ChangeableWrapper(user)
 
         userCopy.company.name = expectedCompanyName
 
@@ -76,7 +76,7 @@ class ChangeableWrapperTests: XCTestCase {
         let expectedCompanyCountry = Company.apple.country
 
         let user = User.youngSteve
-        var userCopy = ChangeableWrapper(wrapped: user)
+        var userCopy = ChangeableWrapper(user)
 
         userCopy.company.country = expectedCompanyCountry
 
@@ -92,7 +92,7 @@ class ChangeableWrapperTests: XCTestCase {
         let expectedCompanyCountry = Company.noname.country
 
         let user = User.appleSteve
-        var userCopy = ChangeableWrapper(wrapped: user)
+        var userCopy = ChangeableWrapper(user)
 
         userCopy.company.country = expectedCompanyCountry
 
@@ -105,8 +105,8 @@ class ChangeableWrapperTests: XCTestCase {
     }
 
     func testThatCopyCanBeEqualToAnotherCopy() {
-        var lhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
-        var rhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
+        var lhsUserCopy = ChangeableWrapper(User.youngSteve)
+        var rhsUserCopy = ChangeableWrapper(User.youngSteve)
 
         lhsUserCopy.id = 123
         rhsUserCopy.id = 123
@@ -115,8 +115,8 @@ class ChangeableWrapperTests: XCTestCase {
     }
 
     func testThatCopyCanNotBeEqualToAnotherCopy() {
-        var lhsUserCopy = ChangeableWrapper(wrapped: User.appleSteve)
-        var rhsUserCopy = ChangeableWrapper(wrapped: User.appleSteve)
+        var lhsUserCopy = ChangeableWrapper(User.appleSteve)
+        var rhsUserCopy = ChangeableWrapper(User.appleSteve)
 
         lhsUserCopy.id = 123
         rhsUserCopy.id = 456
@@ -125,8 +125,8 @@ class ChangeableWrapperTests: XCTestCase {
     }
 
     func testThatCopyCanBeHashed() {
-        var firstUserCopy = ChangeableWrapper(wrapped: User.nextSteve)
-        var secondUserCopy = ChangeableWrapper(wrapped: User.nextSteve)
+        var firstUserCopy = ChangeableWrapper(User.nextSteve)
+        var secondUserCopy = ChangeableWrapper(User.nextSteve)
 
         firstUserCopy.id = 123
         secondUserCopy.id = 123
@@ -138,8 +138,8 @@ class ChangeableWrapperTests: XCTestCase {
     }
 
     func testThatCopyCanBeGreaterThanAnotherCopy() {
-        var lhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
-        var rhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
+        var lhsUserCopy = ChangeableWrapper(User.youngSteve)
+        var rhsUserCopy = ChangeableWrapper(User.youngSteve)
 
         lhsUserCopy.age = 46
         rhsUserCopy.age = 23
@@ -148,8 +148,8 @@ class ChangeableWrapperTests: XCTestCase {
     }
 
     func testThatCopyCanBeLessThanAnotherCopy() {
-        var lhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
-        var rhsUserCopy = ChangeableWrapper(wrapped: User.youngSteve)
+        var lhsUserCopy = ChangeableWrapper(User.youngSteve)
+        var rhsUserCopy = ChangeableWrapper(User.youngSteve)
 
         lhsUserCopy.age = 23
         rhsUserCopy.age = 46
@@ -178,7 +178,7 @@ class ChangeableWrapperTests: XCTestCase {
     func testThatCopyCanBeEncoded() {
         let expectedCompany = Company.next
 
-        var companyCopy = ChangeableWrapper(wrapped: Company.apple)
+        var companyCopy = ChangeableWrapper(Company.apple)
 
         companyCopy.name = expectedCompany.name
         companyCopy.country = expectedCompany.country
