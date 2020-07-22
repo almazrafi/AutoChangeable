@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AutoChangeable:
-    :commit: 131a83052da656d171680b76f8a6faed5c594be3
+    :commit: 3ba33e2063a2edef72c2782058dba5185394d5a3
     :git: https://github.com/almazrafi/AutoChangeable.git
 
 SPEC CHECKSUMS:
