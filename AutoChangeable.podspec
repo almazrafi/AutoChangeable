@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "AutoChangeable"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "Convenient way to copy instances of Swift types with changed properties"
 
   spec.homepage = "https://github.com/almazrafi/AutoChangeable"
