@@ -1,12 +1,12 @@
 # AutoChangeable
-[![Build Status](https://github.com/almazrafi/AutoChangeable/workflows/CI/badge.svg?branch=master)](https://github.com/almazrafi/AutoChangeable/actions)
+[![Build Status](https://github.com/almazrafi/AutoChangeable/workflows/CI/badge.svg?branch=main)](https://github.com/almazrafi/AutoChangeable/actions)
 [![Codecov](https://codecov.io/gh/almazrafi/AutoChangeable/branch/master/graph/badge.svg)](https://codecov.io/gh/almazrafi/AutoChangeable)
-[![Cocoapods](https://img.shields.io/cocoapods/v/AutoChangeable.svg?style=flat)](http://cocoapods.org/pods/AutoChangeable)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
-[![Platforms](https://img.shields.io/cocoapods/p/AutoChangeable.svg?style=flat)](https://developer.apple.com/discover/)
-[![Xcode](https://img.shields.io/badge/Xcode-11-blue.svg)](https://developer.apple.com/xcode)
-[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+[![Cocoapods](https://img.shields.io/cocoapods/v/AutoChangeable)](http://cocoapods.org/pods/AutoChangeable)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen)](https://github.com/Carthage/Carthage)
+[![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg)](https://swift.org/package-manager/)
+[![Platforms](https://img.shields.io/cocoapods/p/AutoChangeable)](https://developer.apple.com/discover/)
+[![Xcode](https://img.shields.io/badge/Xcode-12-blue)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange)](https://swift.org)
 [![License](https://img.shields.io/github/license/almazrafi/AutoChangeable)](https://opensource.org/licenses/MIT)
 
 AutoChangeable is a simple library that provides a convenient way to copy instances of Swift types with changed properties:
@@ -29,7 +29,7 @@ let steveJobs = steve.changing { newUser in
 
 ## Requirements
 - iOS 10.0+ / macOS 10.12+ / watchOS 3.0+ / tvOS 10.0+
-- Xcode 11.0+
+- Xcode 12.5+
 - Swift 5.1+
 
 ## Usage
